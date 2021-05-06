@@ -9,21 +9,54 @@ This document is to record the planning idea and exploration process tracking of
 文档是为了记录我对Mini-Project的独立部分的计划和探索过程跟踪。文档分为英文版和中文版。请注意，该文档不是最终交付报告的原型，因此它没有汇报意义，仅用于项目期间的进度跟踪。
 
 # English Version
-1
-2
-3
-4
-5
+### 一、Plan
+
+- 1、[Preliminary] to know how stock trading works; to know what is Level 2 data, level 2 data structure. 
+
+- 2、[Preliminary] Poor math background->Study statistics, as courses going on, study machine learning, deep learning etc...
+
+- 3、[Target]:
+
+        1st attempt is to predict rise and fall, classification.
+        2nd attempt is to make a regression solution.
+        
+- 4、☆[Implementation]：
+
+         
+- 5、[Visualization and analysis]
+
+- 7、[Result]：
+
+- 8、[Challenge]: 
 
 # Chinese-Simplified Version
-### 一、初步计划
 
-- 1、level 2 行情数据理解：什么是 level 2 行情数据；行情数据储存结构
-- 2、基础的时序数据分析：数据清洗、数据提取、数据检验
-- 3、文献查找调研：关于 level 2 行情数据的使用案例归纳总结
-- 4、模型选择及构建：基于数据分析及调研，进行具象的模型选择
-- 5、确定最终的模型评价标准
-- 6、搭建回测环境，进行模型鲁棒性分析
+### 一、计划
+
+- 1、[Preliminary] level 2 行情数据理解：什么是 level 2 行情数据；行情数据储存结构，基本了解。 
+
+- 2、[Preliminary] 随着课程的深入，补充统计学的知识，没有统计学背景；我学习了监督式，非监督式、回归。。。。。。。。。。。。AI方面和统计学的基础知识
+
+- 3、[Target] 确立目标:
+
+        第1阶段的目标为预测涨和跌，分类任务；
+        第2阶段的任务为回归任务，由易到难
+        
+- 4、[Implementation] ★实施：
+
+         4.1 [Data processing] 原始数据，清洗，整理，归类; 应用特征工程
+         4.2 [Model Selection] 第1阶段->为什么选择Xgboost和LSTM,给出justification
+                               第2阶段-> 回归任务的模型选择
+         4.3 [Trainning data]  训练数据
+         
+- 5、[Visualization and analysis]可视化3个结果，并且分析
+
+- 7、[Result]：如果指导用户根据曲线，进行投资措施。
+
+- 8、[Challenge]: 讨论 1. 拿到数据不知道如何处理？ attempt: 用所有数据作为特征--->数量太大
+                        2. 第1次尝试后发现分类任务无法应用到实际股票市场，
+                         比如，股民或者用户拿我产出的这些有什么意义？solution: 进行第2次尝试，做回归任务，打造价格曲线，有实际意义
+                         3. 计算资源不够？ attempt: 截取小部分数据e.g. 01.04~01.10 (agile methodology)先跑起来，慢慢加
 
 ### 二、数据清理首次尝试
 
