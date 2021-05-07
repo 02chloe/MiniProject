@@ -1,14 +1,22 @@
-# Authors 
-- Isaac Yang Zichun
+# Author
+- Isaac Yang Zichun (from Group 5)
 - Stu_ID: 2009705
 - Email : cm20952@bristol.ac.uk
 
+---
+
 # Introduction
-This document is to record the planning idea and exploration process tracking of my indivudual part of Mini-Project. The document is divided into English version and Chinese version. Note that this document is not a prototype of the final delivered report, so it has no any present significance and is only contributing to indivudual tracking of progress during the project.
+This document is to record the planning idea and exploration process b
 
-文档是为了记录我个人对Mini-Project的独立部分的计划和探索过程跟踪。文档分为英文版和中文版。请注意，该文档不是最终交付报告的原型，因此它没有汇报意义，仅用于项目期间的进度跟踪。
+tracking my indivudual part of Mini-Project. The document is divided into English version and Chinese version. Note that this document is not a prototype of the final  report, so it is is only contributing to myself to track and draft progress during the project.
 
-# English Version
+- [English version](#jumpToE)
+- [Chinese version](#jumpToC)
+
+
+---
+
+<span id = "jumpToE"></span>
 ### Ⅰ、Individual Plan and structure
 1. [Preliminary] 
     - Because poor stock trading foundation-> to do research on how stock trading works; to know what is Level 2 data, level 2 data structure. 
@@ -40,7 +48,13 @@ totally 10 features
 
 3. compare in [lobs] price, for example,  label it as [1] if increasing, label it as [0] if decreasing
 
-# Chinese-Simplified Version
+
+
+### Individual Gantt Chart 
+![image](./Isaac_Individual_Gantt%20chart.png)
+
+---
+# <span id = "jumpToC">Chinese-Simplified Version</span>
 
 ### 一、计划和大纲
 
@@ -66,7 +80,7 @@ level 2 行情数据理解：什么是 level 2 行情数据；行情数据储存
 ### 二、数据清理
 
 1. 清理 level2 数据
-
+    
     (1). 针对【tapes】类文件，获取文件内的日期、标的、时间戳（相对开盘时间的时间戳）、价格字段，留作后用
     
     (2). 针对【LOBs】类文件。获取文件内的时间戳（相对开盘时间的时间戳）、bid【数组形式，包含价格和数量】、ask【数组形式，包含价格和数量】，然后对每一个时间戳内的 bid 以及 ask 做特征工程，分别取价格、数量的最大、最小、平均值、中位数、方差，则每一个时间戳将会得到 2\*5 一共 10 个特征。
@@ -80,3 +94,8 @@ level 2 行情数据理解：什么是 level 2 行情数据；行情数据储存
 3. 优化数据清洗的速度
 
 4. 优化模型参数
+
+
+
+
+
