@@ -2,5 +2,5 @@
 
 ### Team Members
 - Chloe ChenWenqi
-- [Isaac Yang Zichun](https://github.com/isaacyangUK/MiniProject/blob/develope/Isaac_ProgressTracking.md)
+- [Isaac Yang Zichun](https://github.com/chloe-wenqi/MiniProject/tree/develope/Isaac%20YangZichun)
 - Zhang shuhao
