@@ -7,4 +7,7 @@
 
 
 ### Team Collaboration Chart
-![image](./TeamCollaboration.png)
+![image](./Task_Management.png)
+
+### Group Gantt Chart
+![image](.)
