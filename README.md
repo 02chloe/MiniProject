@@ -10,4 +10,4 @@
 ![image](./Task_Management.png)
 
 ### Group Gantt Chart
-![image](.)
+![image](./GroupGanttChart.png)
