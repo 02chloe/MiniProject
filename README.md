@@ -4,3 +4,7 @@
 - Chloe ChenWenqi
 - [Isaac Yang Zichun](https://github.com/chloe-wenqi/MiniProject/tree/develope/Isaac%20YangZichun)
 - Zhang shuhao
+
+
+### Team Collaboration Chart
+![image](./TeamCollaboration.png)
