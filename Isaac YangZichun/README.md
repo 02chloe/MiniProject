@@ -1,14 +1,8 @@
-# Author
-- Isaac Yang Zichun (from Group 5)
-- Stu_ID: 2009705
-- Email : cm20952@bristol.ac.uk
-
----
-
 # Introduction
-This document is to record the planning idea and exploration process b
-
-tracking my indivudual part of Mini-Project. The document is divided into English version and Chinese version. Note that this document is not a prototype of the final  report, so it is is only contributing to myself to track and draft progress during the project.
+This document is to record the planning idea and exploration of Stage 1 in our project. Isaac is mainly responsible for this period;
+This stage is supposed to quickly develope a basic prototype and result for team to discuss and analyse for further work carrying on.
+The document is divided into English version and Chinese version. Note that this document is not a prototype of the final report, 
+so it is is only contributing to Isaac to track progress during the project.
 
 - [English version](#jumpToE)
 - [Chinese version](#jumpToC)
@@ -17,20 +11,21 @@ tracking my indivudual part of Mini-Project. The document is divided into Englis
 ---
 
 <span id = "jumpToE"></span>
-### Ⅰ、Individual Plan and structure
+### Ⅰ、Plan
 1. [Preliminary] 
     - Because poor stock trading foundation-> to do research on how stock trading works; to know what is Level 2 data, level 2 data structure. 
     - Because poor math background -> to study statistic as courses going on, study machine learning, deep learning etc...
-2. [Target]: Decided to divide the individual part into 2 attempts
-    - 1st attempt is to predict rise and fall, classification. because it is more easy than regression 
+2. [Target]: Decided to divide 2 parts
+    - 1st attempt is to predict rise and fall, classification. because it is more easy than regression. 
     - 2nd attempt is to make a regression solution, enabling technical tasks to produce business value
 3. [Implementation]：
     - a. [Data processing] data cleaning, features engineerings
     - b. [Model Selection] 
     - c. [Trainning data] 
-4. [Visualization and analysis]
+	
+4. [Visualization and analysis] Model and trend.
 
-5、[Result]：
+5、[Result]：Share with teammates, discuss how next stage is going on.
 
 6、[Challenges and Improvements]: 
 
@@ -43,7 +38,7 @@ tracking my indivudual part of Mini-Project. The document is divided into Englis
 - ask [array, including price and quantity] in the file
 
 and then do feature engineering for bid and ask in each time stamp, 
-calculate the [maximum, minimum, average, median and variance and stud]
+calculate the [maximum, minimum, average, median and variance and std]
 totally 10 features
 
 3. compare in [lobs] price, for example,  label it as [1] if increasing, label it as [0] if decreasing
@@ -51,7 +46,7 @@ totally 10 features
 
 
 ### Individual Gantt Chart 
-![image](./Isaac_Individual_Gantt%20chart.png)
+![image](./Individual_Gantt chart.png)
 
 ---
 # <span id = "jumpToC">Chinese-Simplified Version</span>
@@ -77,7 +72,7 @@ level 2 行情数据理解：什么是 level 2 行情数据；行情数据储存
                          比如，股民或者用户拿我产出的这些有什么意义？solution: 进行第2次尝试，做回归任务，打造价格曲线，有实际意义
                          3. 计算资源不够？ attempt: 截取小部分数据e.g. 01.04~01.10 (agile methodology)先跑起来，慢慢加
 
-### 二、数据清理
+### 二、数据处理
 
 1. 清理 level2 数据
     
