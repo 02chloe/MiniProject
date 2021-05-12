@@ -1,8 +1,13 @@
 # Introduction
 This document is to record the planning idea and exploration of Stage 1 in our project. Isaac is mainly responsible for this period;
+
 This stage is supposed to quickly develope a basic prototype and result for team to discuss and analyse for further work carrying on.
+
 The document is divided into English version and Chinese version. Note that this document is not a prototype of the final report, 
+
 so it is is only contributing to Isaac to track progress during the project.
+
+PS: Gantt Chart of this stage is only for reference, Group Gantt chart shall prevail.
 
 - [English version](#jumpToE)
 - [Chinese version](#jumpToC)
@@ -46,7 +51,7 @@ totally 10 features
 
 
 ### Individual Gantt Chart 
-![image](./Individual_Gantt chart.png)
+![image](./Stage1_Ganttchart.png)
 
 ---
 # <span id = "jumpToC">Chinese-Simplified Version</span>
