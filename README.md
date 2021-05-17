@@ -1,4 +1,4 @@
-# Mini Project B Broup 5
+# Mini Project B Group 5
 
 ### Team Members
 - [Chloe ChenWenqi](https://github.com/chloe-wenqi/MiniProject/tree/develope/Chloe%20ChenWenqi)
